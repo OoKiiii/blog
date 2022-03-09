@@ -1,9 +1,7 @@
-import AnimationContainer from '../../container/animationContainer';
+import AnimationContainer from "../../container/animationContainer";
 
 const AnimationPage = () => {
-	return(
-		<AnimationContainer />
-	)
-}
+  return <AnimationContainer />;
+};
 
 export default AnimationPage;

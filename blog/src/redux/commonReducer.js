@@ -1,4 +1,4 @@
-import { createSlice } from '@reduxjs/toolkit';
+import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
   isLoading: false,
@@ -6,12 +6,12 @@ const initialState = {
 };
 
 export const commonSlice = createSlice({
-  name: 'common',
+  name: "common",
   initialState,
   reducers: {
     setLoading: (state) => {
       state.isLoading = !state.isLoading;
-      console.log('isLoading', state.isLoading);
+      console.log("isLoading", state.isLoading);
     },
     setModal: (state) => {
       state.isOpen = !state.isOpen;
@@ -19,9 +19,6 @@ export const commonSlice = createSlice({
   },
 });
 
-export const {
-  setLoading,
-  setModal,
-} = commonSlice.actions;
+export const { setLoading, setModal } = commonSlice.actions;
 
 export default commonSlice.reducer;

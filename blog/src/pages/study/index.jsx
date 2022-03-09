@@ -1,9 +1,7 @@
-import StudyContainer from '../../container/StudyContainer';
+import StudyContainer from "../../container/StudyContainer";
 
 const StudyPage = () => {
-	return(
-		<StudyContainer />
-	)
-}
+  return <StudyContainer />;
+};
 
 export default StudyPage;
