@@ -2,7 +2,11 @@
 .idea
 node_modules
 .next
-./blog/.next
+/blog/.next
 
 # File
 .DS_Store
+
+# File
+.DS_Store
+*/.DS_Store
