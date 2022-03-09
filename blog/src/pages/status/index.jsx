@@ -1,9 +1,7 @@
 import StatusContainer from '../../container/statusContainer';
 
 const StatusPage = () => {
-	return(
-		<StatusContainer />
-	)
-}
+  return <StatusContainer />;
+};
 
 export default StatusPage;
