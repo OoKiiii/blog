@@ -49,6 +49,7 @@ const Home: NextPage = () => {
           onChange={(e) => handleChange(e)}
         />
         <button type="button" onClick={() => handleLogin(state.userName)}>로그인</button>
+        테스트
 
         <p>{common.isLoading && '로딩중'}</p>
 
