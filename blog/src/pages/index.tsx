@@ -3,6 +3,8 @@ import Head from 'next/head';
 
 import styles from 'styles/Home.module.css';
 
+import Navigation from '../component/default/Navigation';
+
 // test
 import React, { useState, useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
@@ -39,6 +41,7 @@ const Home: NextPage = () => {
             </Head>
 
             <main className={styles.main}>
+                <Navigation />
                 Github user 조회 테스트
                 <input type="text" name="userName" onChange={(e) => handleChange(e)} />
                 <button type="button" onClick={() => handleLogin(state.userName)}>
